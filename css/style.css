@@ -151,13 +151,17 @@ img {
 
     .why-us {
         background-color: black;
-        padding-top: 0px;
+        padding-top: 70px;
     }
 
     .steps .col {
         width: 100%;
-        margin: 10px 0;
+        margin: 20px 0;
 
+    }
+
+    .steps {
+        margin-bottom: 0;
     }
 
     .lessons .col {
@@ -169,5 +173,11 @@ img {
         width: 100%;
         margin-bottom: 50px;
     }
+
+    .why-us .col-right {
+        width: 80%;
+    }
+
+
 
 }
