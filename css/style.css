@@ -149,6 +149,7 @@ img {
     .why-us {
         background-color: black;
         padding-top: 70px;
+        margin-bottom: 0px;
     }
 
     .steps .col {
