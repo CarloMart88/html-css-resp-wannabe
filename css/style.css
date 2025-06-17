@@ -131,16 +131,13 @@ img {
 /* 1 risposta */
 @media all and (max-width:768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
 }
 
 @media all and (max-width:480px) {
-    .container {
-        width: 480px;
 
-    }
-
+    /* non serve mettere di nuovo max width di nuovo perchè eredita la proprietà dal break point superiore*/
     .row {
         display: flex;
         flex-wrap: wrap;
